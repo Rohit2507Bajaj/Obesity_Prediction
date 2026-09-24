@@ -67,7 +67,7 @@ Six state-oriented features are generated from selected clinical and behavioural
 | Derived Feature | Rule |
 |---|---|
 | `Age_State` | Age < 30 → 0; 30–49 → 1; ≥ 50 → 2 |
-| `Cholesterol_State` | TotChol < 5.17 → 0; 5.17–<6.21 → 1; ≥ 6.21 → 2 |
+| `Cholesterol_State` | TotChol < 200 → 0; 200–<240 → 1; ≥ 240 → 2 |
 | `BP_State` | Systolic BP < 120 → 0; 120–<140 → 1; ≥ 140 → 2 |
 | `PhysActive_Binary` | No → 0; Yes → 1 |
 | `Smoke_Binary` | No → 0; Yes → 1 |
